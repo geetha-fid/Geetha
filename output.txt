@@ -1,0 +1,211 @@
+    1  ip a
+    2  ifup ens33
+    3  ip a
+    4  vim /etc/sysconfig/network-scripts/ifcfg-ens33 
+    5  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+    6  systemctl restart network
+    7  reboot
+    8  ip a
+    9  hostnamectl set-hostname machine1.test.com
+   10  ip a
+   11  hostname
+   12  hostname -i
+   13  cat /etc/resolv.conf 
+   14  exit
+   15  systemctl poweroff
+   16  ip a
+   17  ping google.com
+   18  init 0
+   19  ls
+   20  yum install git
+   21  yum install tree
+   22  mkdir Geethacode
+   23  cd Geethacode/
+   24  git init
+   25  ls -a
+   26   tree .git/
+   27  pwd
+   28  history
+   29  [root@machine1 Geethacode]# history
+   30      1  ip a
+   31      2  ifup ens33
+   32      3  ip a
+   33      4  vim /etc/sysconfig/network-scripts/ifcfg-ens33
+   34      5  vi /etc/sysconfig/network-scripts/ifcfg-ens33
+   35      6  systemctl restart network
+   36      7  reboot
+   37      8  ip a
+   38      9  hostnamectl set-hostname machine1.test.com
+   39     10  ip a
+   40     11  hostname
+   41     12  hostname -i
+   42     13  cat /etc/resolv.conf
+   43     14  exit
+   44     15  systemctl poweroff
+   45     16  ip a
+   46     17  ping google.com
+   47     18  init 0
+   48     19  ls
+   49     20  yum install git
+   50     21  yum install tree
+   51     22  mkdir Geethacode
+   52     23  cd Geethacode/
+   53     24  git init
+   54     25  ls -a
+   55     26   tree .git/
+   56     27  pwd
+   57     28  history
+   58  history
+   59    1  ip a
+   60     31      2  ifup ens33
+   61     32      3  ip a
+   62     33      4  vim /etc/sysconfig/network-scripts/ifcfg-ens33
+   63     34      5  vi /etc/sysconfig/network-scripts/ifcfg-ens33
+   64     35      6  systemctl restart network
+   65     36      7  reboot
+   66     37      8  ip a
+   67     38      9  hostnamectl set-hostname machine1.test.com
+   68     39     10  ip a
+   69     40     11  hostname
+   70     41     12  hostname -i
+   71     42     13  cat /etc/resolv.conf
+   72     43     14  exit
+   73     44     15  systemctl poweroff
+   74     45     16  ip a
+   75     46     17  ping google.com
+   76     47     18  init 0
+   77     48     19  ls
+   78     49     20  yum install git
+   79     50     21  yum install tree
+   80     51     22  mkdir Geethacode
+   81     52     23  cd Geethacode/
+   82     53     24  git init
+   83     54     25  ls -a
+   84     55     26   tree .git/
+   85     56     27  pwd
+   86     57     28  history
+   87  history
+   88    1  ip a
+   89     31      2  ifup ens33
+   90     32      3  ip a
+   91     33      4  vim /etc/sysconfig/network-scripts/ifcfg-ens33
+   92     34      5  vi /etc/sysconfig/network-scripts/ifcfg-ens33
+   93     35      6  systemctl restart network
+   94     36      7  reboot
+   95     37      8  ip a
+   96     38      9  hostnamectl set-hostname machine1.test.com
+   97     39     10  ip a
+   98     40     11  hostname
+   99     41     12  hostname -i
+  100     42     13  cat /etc/resolv.conf
+  101     43     14  exit
+  102     44     15  systemctl poweroff
+  103     45     16  ip a
+  104     46     17  ping google.com
+  105     47     18  init 0
+  106     48     19  ls
+  107     49     20  yum install git
+  108     50     21  yum install tree
+  109     51     22  mkdir Geethacode
+  110     52     23  cd Geethacode/
+  111     53     24  git init
+  112     54     25  ls -a
+  113     55     26   tree .git/
+  114     56     27  pwd
+  115     57     28  history
+  116  history
+  117  mkdir Samplecode
+  118  pwd
+  119  cd Samplecode/
+  120   ls -a
+  121  cd ..
+  122  ls -a
+  123  ls -ltr
+  124  pwd
+  125  ls
+  126  cd Samplecode/
+  127  ls -a
+  128  mkdir test
+  129  git init
+  130  pwd
+  131  ls -a
+  132  pwd
+  133  cd test/
+  134  pwd
+  135  ls
+  136  ls -a
+  137  ls
+  138  ls -a
+  139  cd ..
+  140  ls -a
+  141  vi sample.doc
+  142  cat sample.doc 
+  143  vi onemoredoc.txt
+  144  ls -a
+  145  git add sample.doc
+  146  ls -a
+  147  git status
+  148  cat onemoredoc.txt 
+  149  vi onemoredoc.txt 
+  150  cat onemoredoc.txt 
+  151  git status
+  152  vi sample.doc 
+  153  cat sample.doc 
+  154  git status
+  155  git commit -m "Initail commit"
+  156  git status
+  157  git log
+  158  ls -a
+  159  git add sample.doc 
+  160  git commit -m "Initial commit check"
+  161  git status
+  162  git log
+  163  git show45b360c035ddee30c1e5f47e2faca5c9a1d8bc28
+  164  git show 45b360c035ddee30c1e5f47e2faca5c9a1d8bc28
+  165  git log
+  166  git add onemoredoc.txt 
+  167  git commit -m "other docu"
+  168  git status
+  169  git log
+  170  45b360c035ddee30c1e5f47e2faca5c9a1d8bc28
+  171  git log --name-only
+  172  git log --name--status
+  173  git log --name-status
+  174  git log -1
+  175  cd test/
+  176  ls -a
+  177  pwd
+  178  cd ..
+  179  ls -a
+  180  cd ..
+  181  ls -a
+  182  cd Samplecode/test/
+  183  ls -a
+  184  git clone 
+  185  git clone https://githubcom/eetha7447/Geetha.git
+  186  git clone https://githubcom/geetha7447/Geetha.git
+  187  git clone https://github.com/geetha7447/Geetha.git
+  188  ls - a
+  189  ls -a
+  190  cd Geetha/
+  191  ls -a
+  192  cd ..
+  193  git clone https://github.com/sharada91/FidelityTest.git
+  194  ls
+  195  cd FidelityTest/
+  196   ls -a
+  197  git pull
+  198  ls -a
+  199  vi tes
+  200  vi test.txt
+  201  git add test.txt 
+  202  git commit -m "Comiiting to sharada repo"
+  203  git push origin/master
+  204  git push origin master
+  205  cd ..
+  206  cd Geetha/
+  207  ls -a
+  208  vi GitCommands.txt
+  209  cat GitCommands.txt 
+  210  history
+  211  history >>output.txt
